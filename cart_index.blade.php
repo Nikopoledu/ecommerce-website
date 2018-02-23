@@ -1,5 +1,5 @@
 @extends('layouts.includes.main')
-@section('title','Products')
+@section('title','Cart')
 @section('content')
 
 <div class="container"> 
@@ -26,7 +26,7 @@
                 {{ csrf_field() }}
                  {{ method_field('PUT') }}
                <input name="image" type="hidden" value="">
-                  <div class="price"> <p> $80</p></div>
+                  <div class="price"> <p> $10</p></div>
     <div class="row">
         <div class="col-xs-2">
             <label>QTY :</label>
@@ -91,14 +91,14 @@
              <div class="row">
                  <div class="col-md-5">
                      <b>
-                      Items: 23 <br>
-                      Tax: $23 <br> 
+                      Items: 1 <br>
+                      Tax: $10 <br> 
                       </b>
                 </div>
                   <div class="col-md-7">
                       <b>
-                        Sub Total: $ 22 <br>
-                        Grand Total: $ 23</b>
+                        Sub Total: $10 <br>
+                        Grand Total: $10</b>
                   </div>
             </div>
           </div>
